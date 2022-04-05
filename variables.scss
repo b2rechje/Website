@@ -1,0 +1,29 @@
+$color: lemonchiffon;
+$color1: brown; 
+
+h1, h2{
+    color: $color;
+    font-size: 14px;
+
+}
+body{
+    background-image: url(discopak.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.row > div{
+    padding: 20px;
+    background-color: $color1;
+    border: 2px solid black;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#container > div {
+    background-color: $color1;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}
